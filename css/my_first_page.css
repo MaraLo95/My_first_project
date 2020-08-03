@@ -1,0 +1,281 @@
+
+
+html, body {
+    height: 100%;
+}
+
+.row {
+    width: 100%;
+}
+
+#about-us-section,
+#contact-section,
+#projects-section,
+#services-section {
+    padding-top: 5%;
+}
+
+#home-section,
+#contact-section {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#home-section {
+    background-image: url('../images/m.jpg');
+    height: 100%;
+}
+
+#contact-section {
+    background-image: url('../images/contact.jpg');
+}
+
+#projects-section,
+#services-section {
+    background-color: white;
+}
+
+#about-us-section {
+    background-color: #A8DEA3;
+}
+
+#services-section,
+#about-us-section,
+#contact-section {
+    padding-bottom: 5%;
+}
+
+
+#projects-section,
+#contact-section {
+    text-align: left;
+}
+
+#projects-title,
+#contact-title,
+#services-title {
+    background-color: #A8DEA3;
+    width: 100%;
+
+}
+
+.nav-masthead a {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+
+.nav-masthead .active {
+    color: #A8DEA3;
+}
+
+#main-title {
+    background-color: #A8DEA3;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.cover-heading {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 3%;
+    height: 70px;
+    padding-top: 10px;
+    margin-left: 0;
+    opacity: 0;
+}
+
+.cover-heading1 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 5%;
+    height: 70px;
+    padding-top: 10px;
+
+}
+
+.inner {
+    margin-left: 12px;
+}
+
+.project-link {
+    color: #7CBF75;
+    margin-top: 5%;
+}
+
+.project-image {
+    height: 250px;
+    width:100%;
+    object-fit: cover;
+}
+
+.project-card {
+    border: none;
+    padding-bottom: 5%;
+}
+
+#services-row {
+    padding: 15px;
+}
+
+.service {
+    background-color: #A8DEA3;
+    vertical-align: left;
+    text-align: justify;
+    height: 100%;
+    padding: 2% 8%;
+    opacity: 0;
+}
+
+.service-col {
+    padding-bottom: 15px;
+}
+
+.service-name {
+    padding-left: 5%;
+    font-size: 20px;
+}
+
+.service-description {
+    padding-top: 5%;
+}
+
+#services-description {
+    text-align: left;
+}
+
+.service-image {
+    width: 60px;
+    height: 60px;
+    margin-top: 5%;
+}
+
+
+#about-us-container {
+    text-align: justify;
+    padding: 0 15px;
+    opacity: 0;
+}
+
+.about-us-title {
+    color: white;
+    text-decoration: underline;
+    text-align: left;
+    margin-bottom: 2%;
+}
+
+
+#about-us-link {
+    background-color: white;
+    color: #A8DEA3;
+    padding-top: 8px;
+    width: 100%;
+    height: 65px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 0;
+    float: right;
+    margin-top: 5%;
+}
+
+#about-us-link-column {
+    padding: 0;
+}
+
+#form-column {
+    padding: 0;
+}
+
+#validate {
+    width: 100%;
+    color: white;
+    background-color: #A8DEA3;
+    font-size: 20px;
+}
+
+#email, #subject, #comment {
+    width: 100%;
+    background-color: transparent;
+}
+
+
+footer {
+    background-color: #515250;
+    color: #F0F3E6;
+    text-align: center;
+    margin: 0, auto;
+}
+
+.flex-center {
+    width: 100%;
+    min-height: 50px;
+    background: #6B6D69;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+.social-icons {
+    text-align: center;
+}
+
+.social-icons li {
+    display: inline-block;
+    list-style-type: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+}
+
+.social-icons li a {
+    border-bottom: none;
+
+}
+
+.social-icons li img {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    color: #4cc976;
+}
+
+.copyright {
+    padding: 10px;
+}
+
+#error1, #error2, #error3 {
+    color: red;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+
+.alert {
+  position: absolute;
+  padding: 20px;
+  margin-left: 64%;
+  width: 30%;
+  color: #148744;
+  border-radius: 10px;
+  font: 20px;
+}
+
+.alert-width{
+  width: 35%;
+}
+
+.topright {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  font-size: 20px;
+}
+
+.hidden {
+    display: none
+
+}
+
